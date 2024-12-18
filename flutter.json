@@ -1,0 +1,39 @@
+{
+  "app_name": "FlutterDemo",
+  "version": "1.0.0",
+  "build_number": "100",
+  "theme": {
+    "primary_color": "#6200EE",
+    "accent_color": "#03DAC5",
+    "background_color": "#FFFFFF",
+    "text_color": "#000000"
+  },
+  "supported_locales": [
+    "en_US",
+    "es_ES",
+    "fr_FR",
+    "de_DE"
+  ],
+  "api_endpoints": {
+    "base_url": "https://api.flutterdemo.com",
+    "login_url": "/auth/login",
+    "fetch_data_url": "/data/fetch"
+  },
+  "features": {
+    "authentication": true,
+    "push_notifications": true,
+    "offline_support": false
+  },
+  "flutter_version": "3.7.0",
+  "platforms_supported": [
+    "android",
+    "ios",
+    "web",
+    "desktop"
+  ],
+  "user_preferences": {
+    "notifications_enabled": true,
+    "dark_mode": false,
+    "language": "en_US"
+  }
+}
